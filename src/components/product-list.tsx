@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getProductList } from '~/app/lib/api/get-product-list'
+import { getProductList } from '~/lib/api/get-product-list'
 
 async function ProductList() {
   const productListData = getProductList()
